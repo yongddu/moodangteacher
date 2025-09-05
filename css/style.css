@@ -1,5 +1,11 @@
 @charset "UTF-8";
 
+
+.inner {
+    width: 37.4rem;
+    margin: 0 auto;
+    background: rgba(255, 255, 0, 0.2);
+}
 .swiper {
   width: 600px;
   height: 300px;
