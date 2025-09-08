@@ -10,8 +10,6 @@ document.addEventListener("DOMContentLoaded", () => {
       disableOnInteraction: false, // 사용자 상호작용 후에도 자동재생 계속
     },
 
-
-
     // 페이지네이션
     pagination: {
       el: ".swiper-pagination",
@@ -26,11 +24,17 @@ document.addEventListener("DOMContentLoaded", () => {
       },
       // when window width is >= 480px
       480: {
-        slidesPerView: 2,
+        slidesPerView: 1.5,
+        spaceBetween: 20,
       },
       // when window width is >= 640px
       640: {
+        slidesPerView: 2,
+        spaceBetween: 24,
+      },
+      1024: {
         slidesPerView: 3,
+        spaceBetween: 30,
       },
     },
   });
