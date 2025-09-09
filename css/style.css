@@ -206,14 +206,15 @@
 }
 
 .story-list {
-  display: flex;
-  flex-wrap: wrap;
   margin-top: 2.5rem;
+  column-count: auto;
+  column-width: 300px; /* 최소크기 */
+  column-gap: 2rem;
+
 }
 
 .story-list li {
-  flex: 1 1 45%;
-  aspect-ratio: 1/0.8235294117647059;
+  margin-bottom: 2rem;
 }
 
 .story-list li img {
@@ -335,12 +336,6 @@
     flex: 1 1 50%;
   }
 
-  .story-list {
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 2.5rem;
-    gap: 3rem;
-  }
 
   .contact-con {
     padding: 9.7656vw 16.50390625vw;
@@ -386,9 +381,6 @@
     display: none;
   }
 
-  .story-list li {
-    flex: 1 1 30%;
-  }
 
   .contact {
     flex-direction: row-reverse;
